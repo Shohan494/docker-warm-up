@@ -17,3 +17,7 @@ docker -v
 
 docker version
 ```
+
+```
+docker run busybox ls
+```
