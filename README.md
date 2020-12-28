@@ -20,4 +20,6 @@ docker version
 
 ```
 docker run busybox ls
+
+docker system prune
 ```
