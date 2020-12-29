@@ -11,7 +11,7 @@ docker start -a id
 
 docker ps
 
-docker ps --all
+docker ps --all - LISTING ALL THE CONTAINERS
 
 docker -v
 
@@ -21,7 +21,7 @@ docker version
 ```
 docker run busybox ls
 
-docker system prune
+docker system prune - DELETING ALL THE DATA AND RUNNING CONTAINERS
 
 docker logs id
 ```
