@@ -25,3 +25,9 @@ docker system prune
 
 docker logs id
 ```
+
+```
+docker stop id - TAKES 10 SECS, THEN KILL
+
+docker kill id - IMMEDIETLY KILLS THE RUNNING PROCESS
+```
