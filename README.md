@@ -27,7 +27,7 @@ docker logs id
 ```
 
 ```
-docker stop id - TAKES 10 SECS, THEN KILL
+docker stop id - TAKES 10 SECS, IF NOTHING HAPPENS WITHIN THIS 10 SEC, THEN KILL COMMAND EXECUTION
 
 docker kill id - IMMEDIETLY KILLS THE RUNNING PROCESS
 ```
