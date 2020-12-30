@@ -35,4 +35,6 @@ docker exec -it container-id command
 
 docker exec -it container-id sh - FOR SHELL COMMAND ACCESS
 
+docker run -it busybox sh
+
 ```
