@@ -32,4 +32,7 @@ docker stop id - TAKES 10 SECS, IF NOTHING HAPPENS WITHIN THIS 10 SEC, THEN KILL
 docker kill id - IMMEDIETLY KILLS THE RUNNING PROCESS
 
 docker exec -it container-id command
+
+docker exec -it container-id sh - FOR SHELL COMMAND ACCESS
+
 ```
