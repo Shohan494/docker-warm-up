@@ -5,9 +5,9 @@ docker run hello-world
 
 docker create hello-world
 
-docker start id
+docker start container-id
 
-docker start -a id
+docker start -a container-id
 
 docker ps
 
@@ -23,7 +23,7 @@ docker run busybox ls
 
 docker system prune - DELETING ALL THE DATA AND RUNNING CONTAINERS
 
-docker logs id
+docker logs container-id
 ```
 
 ```
@@ -53,4 +53,6 @@ RUN apk add --update redis
 CMD ["redis-server"]
 
 docker build
+
+docker run container-id
 ```
