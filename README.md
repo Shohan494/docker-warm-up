@@ -64,3 +64,5 @@ docker run container-id
 ```
 docker build -t shohan494/redis-starter:latest .
 ```
+
+What one point I am intentionally missing is the section of manually building image
