@@ -60,3 +60,7 @@ docker build
 
 docker run container-id
 ```
+
+```
+docker build -t shohan494/redis-starter:latest .
+```
