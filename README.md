@@ -38,3 +38,19 @@ docker exec -it container-id sh - FOR SHELL COMMAND ACCESS
 docker run -it busybox sh
 
 ```
+
+```
+# Use an existing docker image as a base
+
+FROM alpine
+
+# Download and install a dependency
+
+RUN apk add --update redis
+
+# Tell the image what to do when it starts as a container
+
+CMD ["redis-server"]
+
+docker build
+```
