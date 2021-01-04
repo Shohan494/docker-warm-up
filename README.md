@@ -74,5 +74,8 @@ docker run -p 8080:8080 shohan494/simpleweb
 # docker-compose warm-up
 ```
 docker-compose up
+docker-compose up -d
+docker-compose down
+
 ```
 
