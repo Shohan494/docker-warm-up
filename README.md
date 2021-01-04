@@ -77,7 +77,6 @@ docker-compose up
 docker-compose up -d
 docker-compose down
 docker-compose up --build
-
-
+docker-compose ps
 ```
 
