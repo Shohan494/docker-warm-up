@@ -70,3 +70,9 @@ What one point I am intentionally missing is the section of manually building im
 ```
 docker run -p 8080:8080 shohan494/simpleweb
 ```
+
+# docker-compose warm-up
+```
+docker compose up
+```
+
