@@ -80,3 +80,8 @@ docker-compose up --build
 docker-compose ps
 ```
 
+# for Dockerfile.dev
+```
+docker build -f Dockerfile.dev .
+```
+
