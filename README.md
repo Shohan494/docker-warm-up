@@ -104,4 +104,31 @@ services:
       - /app/node_modules
       - .:/app
  ```
+# issue after docker-compose up command
+```
+docker-compose up
+Building web
+Step 1/6 : FROM node:alpine
+ ---> 179fbd4d8e5c
+Step 2/6 : WORKDIR '/app'
+ ---> Using cache
+ ---> eebc9506d148
+Step 3/6 : COPY package.json .
+ ---> Using cache
+ ---> b3b3d6e59ea4
+Step 4/6 : RUN npm install
+ ---> Running in 536eb05fb694
+npm notice
+npm notice New patch version of npm available! 7.4.0 -> 7.4.3
+npm notice Changelog: <https://github.com/npm/cli/releases/tag/v7.4.3>
+npm notice Run `npm install -g npm@7.4.3` to update!
+npm notice
+npm ERR! code ERR_SOCKET_TIMEOUT
+npm ERR! errno ERR_SOCKET_TIMEOUT
+npm ERR! request to https://registry.npmjs.org/@eslint%2feslintrc failed, reason: Socket timeout
 
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2021-01-25T16_41_31_098Z-debug.log
+Service 'web' failed to build : The command '/bin/sh -c npm install' returned a non-zero code: 1
+
+```
