@@ -85,7 +85,7 @@ docker-compose ps
 docker build -f Dockerfile.dev .
 ```
 
-# for volume and mapping the present working directory to the working directory
+# for volume and mapping the present working directory to the working directory // Didn't work as expected, react page didn't refresh
 ```
 docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 66b85e516313
 ```
