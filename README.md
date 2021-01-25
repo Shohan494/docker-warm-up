@@ -90,7 +90,7 @@ docker build -f Dockerfile.dev .
 docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 66b85e516313
 ```
 
-# docker compose for the previous volume work
+# docker compose for the previous volume work // Didn't work as expected, react page didn't refresh
 ```
 version: '3'
 services:
