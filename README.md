@@ -89,3 +89,19 @@ docker build -f Dockerfile.dev .
 ```
 docker run -p 3000:3000 -v /app/node_modules -v $(pwd):/app 66b85e516313
 ```
+
+# docker compose for the previous volume work
+```
+version: '3'
+services:
+  web:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    ports:
+      - "3000:3000"
+    volumes:
+      - /app/node_modules
+      - .:/app
+ ```
+
